@@ -9,16 +9,26 @@
 
 int main(void)
 {
-int ch;
-for (ch = "A"; ch <= "Z"; ch++)
-{
-	putchar(ch);
-}
-for (ch = "a"; ch <= "z"; ch++)
-{
-	putchar(ch);
-	putchar("\n");
-}
-return (0);
+	char c;
+
+	char d;
+
+	c = 'a';
+
+	d = 'A';
+	while
+		(c <= 'z') {
+			putchar(c);
+			c++;
+	}
+	while
+		(d <= 'Z') {
+			putchar(d);
+			c++;
+		}
+
+	putchar('\n');
+
+	return (0);
 
 }
