@@ -20,11 +20,11 @@ int main(void)
 		(c <= 'z') {
 			putchar(c);
 			c++;
-	}
+		}
 	while
 		(d <= 'Z') {
 			putchar(d);
-			c++;
+			d++;
 		}
 
 	putchar('\n');
