@@ -1,7 +1,8 @@
 #include <stdio.h>
 /**
  * main - Starting point
- * Description: a C program that prints the alphabet in lowercase, followed by a new line
+ * Description: a C program that prints the alphabet in
+ * lowercase, followed by a new line
  * Return: Always (0) (Sucessful)
 */
 
@@ -19,5 +20,3 @@ int main(void)
 		putchar('\n');
 		return (0);
 }
-
-
