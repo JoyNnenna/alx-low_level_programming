@@ -4,10 +4,11 @@
  * main - Starting point
  * Description: a program that prints all single digit numbers
  * of base 10 starting from 0, followed by a new line
- * Return (0) (Successful)
+ * Return: (0) (Successful)
 */
 
 int main(void)
+
 {
 	int a;
 
@@ -15,4 +16,5 @@ int main(void)
 		printf("%d", a);
 	putchar('\n');
 	return (0);
+
 }
