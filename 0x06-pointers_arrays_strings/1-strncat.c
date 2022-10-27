@@ -8,7 +8,7 @@
  * @n: third parameter
  * Return: string
 */
-char strinet(char *dest, char *src, int n)
+char strncat(char *dest, char *src, int n)
 {
 strncat(dest, src, n);
 return (dest);
