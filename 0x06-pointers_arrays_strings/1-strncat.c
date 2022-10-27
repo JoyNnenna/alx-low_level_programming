@@ -1,4 +1,4 @@
-#include "main.h"                                                        
+#include "main.h"
 #include <string.h>
 
 /**
@@ -10,5 +10,6 @@
 */
 char strinet(char *dest, char *src, int n)
 {
-	strncat(dest, src, n);
-	return (dest);
+strncat(dest, src, n);
+return (dest);
+}
